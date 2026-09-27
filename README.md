@@ -1,1 +1,1 @@
-# DotNetIndustrialPractice
+# DotNetIndustrialLab
