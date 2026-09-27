@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DotNetIndustrialLab.WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="Industrial Lab" Height="450" Width="800">
+    <Grid Margin="24">
+        <StackPanel>
+            <TextBlock
+                FontSize="20"
+                Text="Temperature sensor" />
+            <TextBlock
+                Margin="0,16,0,0"
+                FontSize="36"
+                Text="{Binding TemperatureText}" />
+            <TextBlock
+                Margin="0,16,0,0"
+                Text="{Binding ConnectionStatus}" />
+        </StackPanel>
     </Grid>
 </Window>

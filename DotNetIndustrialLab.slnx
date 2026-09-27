@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="src/DotNetIndustrialLab.WPF/DotNetIndustrialLab.WPF.csproj" Id="a7d9d72f-0f53-489c-936a-5791cb286ad1" />
+  <Project Path="src/DotNetIndustrialLab.MqttMock/DotNetIndustrialLab.MqttMock.csproj" />
 </Solution>
